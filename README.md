@@ -1,3 +1,8 @@
+# Download essentials 
+```
+# apt-get install build-essential linux-headers-`uname -r`
+```
+
 # Installation
 
 1. Download the code (clone it or download a zipped version)
@@ -10,8 +15,8 @@
 # modprobe lib80211
 # modprobe cfg80211
 ```
-
-6. Insert the module into the Linux kernel: `# insmod 8188eu.ko`
+6. Remove the module from the Linux kernel (if present, and error occurs in step 7): `# rmmod 8188eu`
+7. Insert the module into the Linux kernel: `# insmod 8188eu.ko`
 
 # Monitor mode
 
