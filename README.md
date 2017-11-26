@@ -1,3 +1,6 @@
+# Note
+These drivers seem to get the TL-WN722N v2.0 to work in Kali 2017.03 (tested). 
+
 # Download essentials 
 ```
 # apt-get install build-essential linux-headers-`uname -r`
